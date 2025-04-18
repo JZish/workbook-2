@@ -6,10 +6,10 @@ public class AddressBuilder {
         Scanner scanner = new Scanner(System.in);
         // First name input
         System.out.println("First name: ");
-        String firstName = scanner.nextLine();
+        String firstName = scanner.nextLine().trim();
         // Last name input
         System.out.println("Last name: ");
-        String lastName = scanner.nextLine();
+        String lastName = scanner.nextLine().trim();
         // Full name combiner
         StringBuilder fullName = new StringBuilder();
         fullName.append("Full Name: ").append(firstName);
@@ -18,28 +18,28 @@ public class AddressBuilder {
         // Address Info
             // Billing Street
         System.out.println("Billing Street: ");
-        String billingStreet = scanner.nextLine();
+        String billingStreet = scanner.nextLine().trim();
             // Billing City
         System.out.println("Billing City: ");
-        String billingCity = scanner.nextLine();
+        String billingCity = scanner.nextLine().trim();
             // Billing State
         System.out.println("Billing State: ");
-        String billingState = scanner.nextLine();
+        String billingState = scanner.nextLine().trim();
             // Billing Zip
         System.out.println("Billing Zip: ");
-        String billingZip = scanner.nextLine();
+        String billingZip = scanner.nextLine().trim();
             // Shipping Street
         System.out.println("Shipping Street: ");
-        String shippingStreet = scanner.nextLine();
+        String shippingStreet = scanner.nextLine().trim();
             // Shipping City
         System.out.println("Shipping City: ");
-        String shippingCity = scanner.nextLine();
+        String shippingCity = scanner.nextLine().trim();
             // Shipping State
         System.out.println("Shipping State: ");
-        String shippingState = scanner.nextLine();
+        String shippingState = scanner.nextLine().trim();
             // Shipping Zip
         System.out.println("Shipping Zip: ");
-        String shippingZip = scanner.nextLine();
+        String shippingZip = scanner.nextLine().trim();
             // Divider
         System.out.println("======================================================");
         System.out.println("======================================================");
